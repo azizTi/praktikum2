@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Belajar Membuat Form </title>
+</head>
+<body>
+  <p><h1> Selamat Situs Pariwisata Yogyakarta</p></h1>
+  <img alt="twitter" src="http://kadowisudaku.com/wp-content/uploads/2018/01/logo-akademi-pariwisata-stipary.jpeg" height="200" />
+ <p><h5><u> Isikan Data anda : </u></p></h5>
+<form action=" formulir.html" method="get">
+Nama Anda: <input type="text" name="nama" value="isikan disini" /> Asal Anda: <input type="password" name="password" />
+<br />
+Tujuan : <input type="spesialis" name="spesialis" /> Jumlah orang : <input type="spesialis" name="spesialis" />
+<br />
+Kendaraan : <input type="spesialis" name="spesialis" />
+<br />
+Keminatan :
+<input type="radio" name="jenis_kelamin" value="laki-laki" checked />
+Party 
+<input type="radio" name="jenis_kelamin" value="perempuan" />
+Pantai
+<input type="radio" name="jenis_kelamin" value="perempuan" />
+Situs Purbakala
+<input type="radio" name="jenis_kelamin" value="perempuan" />
+Kuliner
+  <input type="spesialis" name="spesialis" />
+<br />
+Butuh Saran Lokasi Pariwisata <input type="checkbox" name="hobi_baca" /> Iya / Tidak<input type="spesialis" name="spesialis" />
+<br /> 
+Info Tempat Istirahat<input type="checkbox" name="hobi_nulis" checked /> Sudah Ada
+<input type="checkbox" name="hobi_mancing" /> Iya <input type="password" name="password" />
+<br />
+Ada keluhan ? <input type="checkbox" name="hobi_baca" /> tidak <input type="checkbox" name="hobi_nulis" checked /> iya<input type="checkbox" name="hobi_mancing" /> <input type="spesialis" name="spesialis" />
+<br />
+<br />
+Lama Singgah :
+<select name="asal_kota" >
+<option value="Tugas"> Satu Hari</option>
+<option>Seminggu</option>
+<option>Belom Diperkirakan</option>
+</select>
+  </div>
+<br />
+Apabila ada keluhan dikendaraan tulis dibawah:
+<textarea name="komentar" rows="5" cols="20">
+Silahkan tulis keluhan anda
+</textarea>
+<br />
+<input type="submit" value="submit data" >
+</form>
+</body>
+</html>

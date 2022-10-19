@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Belajar Membuat Form </title>
+</head>
+<body>
+  <p><h1> Formulir Perpustakaan Kota Madiun </p></h1>
+  <p><h5> untuk meminjam buku harap isi formulir dibawah ini : </p></h5>
+<form action=" formulir.html" method="get">
+Nama Buku: <input type="text" name="nama" value="isikan disini" />
+<br />
+No Seri Buku: <input type="password" name="password" />
+<br />
+Durasi Pinjam :
+<input type="radio" name="jenis_kelamin" value="laki-laki" checked />
+1 Hari
+<input type="radio" name="jenis_kelamin" value="perempuan" />
+3 Hari
+<input type="radio" name="jenis_kelamin" value="perempuan" />
+7 Hari
+<input type="radio" name="jenis_kelamin" value="perempuan" />
+Maks 14 Hari
+<br />
+Jenis Buku: <input type="checkbox" name="hobi_baca" /> Khusus <input type="checkbox" name="hobi_nulis" checked /> Berbayar
+<input type="checkbox" name="hobi_mancing" /> Gratis
+<br />
+Dipergunakan Untuk:
+<select name="asal_kota" >
+<option value="Tugas"> Tugas</option>
+<option>Referensi</option>
+<option value="Kota Semarang" selected>Membaca</option>
+</select>
+<br />
+Komentar Anda:
+<textarea name="komentar" rows="5" cols="20">
+Silahkan katakan isi hati anda
+</textarea>
+<br />
+<input type="submit" value="Mulai Proses!" >
+</form>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Belajar Membuat Form </title>
+</head>
+<body>
+  <p><h1> Selamat Datang Di Bengkel Senang Susah Pokok Balap </p></h1>
+  <img alt="twitter" src="https://2.bp.blogspot.com/-aHutcY4IU34/UzSZqDISMAI/AAAAAAAABY8/_kBOGdzrvcA/s1600/GENKI1.png" height="100" />
+  <p><h5><u> untuk antrian kendaraan harap isi formulir dibawah ini : </u></p></h5>
+<form action=" formulir.html" method="get">
+Jenis Motor: <input type="text" name="nama" value="isikan disini" /> Tanggal Masuk: <input type="password" name="password" />
+<br />
+Plat & CC Motor: <input type="password" name="password" />
+<br />
+Tune Up :
+<input type="radio" name="jenis_kelamin" value="laki-laki" checked />
+Oli 
+<input type="radio" name="jenis_kelamin" value="perempuan" />
+Filter Udara
+<input type="radio" name="jenis_kelamin" value="perempuan" />
+Busi
+<input type="radio" name="jenis_kelamin" value="perempuan" />
+Overhaull Mesin
+<br />
+Bore Up: <input type="checkbox" name="hobi_baca" /> Harian Non Std <input type="checkbox" name="hobi_nulis" checked /> Harian Balap
+<input type="checkbox" name="hobi_mancing" /> Setting for Event
+<br />
+Variasi <input type="checkbox" name="hobi_baca" /> Velg Chemco <input type="checkbox" name="hobi_nulis" checked /> Shock KTC
+<input type="checkbox" name="hobi_mancing" /> 
+<br />
+Tambahan Service:
+<select name="asal_kota" >
+<option value="Tugas"> Ganti Ban</option>
+<option>Centering Body</option>
+<option>Dyno Test Speed Torsi</option>
+<option value="Kota Semarang" selected>ECU Mapping</option>
+</select>
+<br />
+Apabila ada keluhan dikendaraan tulis dibawah:
+<textarea name="komentar" rows="5" cols="20">
+Silahkan tulis keluhan anda
+</textarea>
+<br />
+<input type="submit" value="GASKAN" >
+</form>
+</body>
+</html>

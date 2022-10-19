@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Belajar Membuat Form </title>
+</head>
+<body>
+  <p><h1> Selamat Datang Di Klinik Sehat Loro Piker </p></h1>
+  <img alt="twitter" src="https://1.bp.blogspot.com/-EMrTG8BQwfM/WlarBlSUpWI/AAAAAAAANVc/5MmptGQxtngHHQeHMgGWOPrNitJ_KqAmACLcBGAs/s1600/Logo-Kementerian-Kesehatan-RI_01.png" height="100" />
+ <p><h5><u> Isikan Data Pasien : </u></p></h5>
+<form action=" formulir.html" method="get">
+Nama Pasien: <input type="text" name="nama" value="isikan disini" /> No RM: <input type="password" name="password" />
+<br />
+Nama Poli : <input type="spesialis" name="spesialis" /> Nama Dokter : <input type="spesialis" name="spesialis" />
+<br />
+Rujukan Dari : <input type="spesialis" name="spesialis" />
+<br />
+Keluhan :
+<input type="radio" name="jenis_kelamin" value="laki-laki" checked />
+Mual 
+<input type="radio" name="jenis_kelamin" value="perempuan" />
+pusing
+<input type="radio" name="jenis_kelamin" value="perempuan" />
+sesak nafas
+<input type="radio" name="jenis_kelamin" value="perempuan" />
+keluhan lain
+  <input type="spesialis" name="spesialis" />
+<br />
+Kelas Pasien <input type="checkbox" name="hobi_baca" /> BPJS / Kelas<input type="spesialis" name="spesialis" />
+<br /> <input type="checkbox" name="hobi_nulis" checked /> Rujukan PUSKESMAS
+<input type="checkbox" name="hobi_mancing" /> Mandiri
+<br />
+Tambahan <input type="checkbox" name="hobi_baca" /> check up darah <input type="checkbox" name="hobi_nulis" checked /> check kolesterol<input type="checkbox" name="hobi_mancing" /> 
+Penanganan Lebih Lanjut <input type="spesialis" name="spesialis" />
+<br />
+<br />
+Jam Kontrol:
+<select name="asal_kota" >
+<option value="Tugas"> Pagi (09-00 - 12.00)</option>
+<option>Siang (13.00 - 15.00)</option>
+<option>Sore (17.00 - 21.00)</option>
+</select>
+<br />
+Apabila ada keluhan dikendaraan tulis dibawah:
+<textarea name="komentar" rows="5" cols="20">
+Silahkan tulis keluhan anda
+</textarea>
+<br />
+<input type="submit" value="submit data" >
+</form>
+</body>
+</html>
